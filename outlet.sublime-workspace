@@ -1,0 +1,722 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"Load",
+				"loadMore"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"bakc",
+				"background"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"margni",
+				"margin-top"
+			],
+			[
+				"background",
+				"background-size"
+			],
+			[
+				"backgro",
+				"background-size"
+			],
+			[
+				"margn",
+				"margin-top"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"atarde_",
+				"atardecer__slide"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"backgroun",
+				"background-image"
+			],
+			[
+				"repe",
+				"repeat-y"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"marign",
+				"margin-top"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"bre",
+				"BRENIER"
+			],
+			[
+				"i",
+				"inherit"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"a3",
+				"A03020"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"domingo",
+				"domingo__down"
+			],
+			[
+				"imo",
+				"imho, imgholder\tImgHolder image add"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"conta",
+				"contain"
+			],
+			[
+				"co",
+				"contain"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"a030",
+				"A03021"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"pos",
+				"pos-r\tposition: relative;"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"the_ti",
+				"the_title"
+			],
+			[
+				"get_template",
+				"get_template_part"
+			],
+			[
+				"wp_enque",
+				"wp_enqueue_style"
+			],
+			[
+				"paddon",
+				"padding-top"
+			],
+			[
+				"input",
+				"input--large"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"add_setting",
+				"add_settings_field"
+			],
+			[
+				"add_se",
+				"add_settings_section"
+			],
+			[
+				"border",
+				"border-top-left-radius"
+			],
+			[
+				"border-lef",
+				"border-top-left-radius"
+			],
+			[
+				"get_tempal",
+				"get_template_directory_uri"
+			],
+			[
+				"get_temp",
+				"get_template_directory_uri"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"text-a",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 309.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"terminal",
+				"Preferences: Terminality Settings – User"
+			],
+			[
+				"termi",
+				"Terminality: Browse Commands..."
+			],
+			[
+				"sync",
+				"Sync Settings: Create and Upload"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"fake",
+				"Snippet: fakeimg"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			]
+		],
+		"width": 442.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"ls",
+			"ñs",
+			"dir",
+			"gulp",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/desarrollo/outlet"
+	],
+	"file_history":
+	[
+		"/E/Dropbox/MIS DESARROLLOS/Isla/index.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/css/style.css",
+		"/C/Users/pcGrande/Desktop/instafeed.js-master/src/instafeed.coffee",
+		"/C/Users/pcGrande/Desktop/instafeed.js-master/test/instafeedTest.coffee",
+		"/E/Dropbox/MIS DESARROLLOS/forum/css/style.css",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/eventos__detalle.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/contacto.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/pru.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/contacto.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/eventos.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/eventos__detalle.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/eventos__lista.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/evento__lista.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/eventos__lista.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/novedades__detalle.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/novedades.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/tienda.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/eventos.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/promociones__detalle.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/novedades__detalle.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/novedades.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/promociones.html",
+		"/E/desarrollo/forum__cuernavaca/css/style.css",
+		"/E/Dropbox/MIS DESARROLLOS/forum/promociones__detalle.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/nosotros.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/tienda.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/promociones.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/directorio.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/directorio.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/css/bootstrap.css.map",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/nosotros2.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/nosotros.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/index2.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/css/style2.css",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/indexalterno.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/css/slick-theme.css",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/pr.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/index.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/css/slick.css",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/prueba.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/indexnuevo.html",
+		"/C/Users/pcGrande/Desktop/1/footerlisto.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/index2.html",
+		"/E/Dropbox/MIS DESARROLLOS/Isla/marcos.html",
+		"/C/Users/pcGrande/Desktop/marcos.html",
+		"/E/desarrollo/forum__cuernavaca/index.html",
+		"/E/Dropbox/MIS DESARROLLOS/Son de Aqui/css/style.css",
+		"/E/Dropbox/MIS DESARROLLOS/Son de Aqui/index.html",
+		"/E/Dropbox/MIS DESARROLLOS/Son de Aqui/css/bootstrap/bootstrap.css",
+		"/E/Dropbox/MIS DESARROLLOS/Son de Aqui/package.json",
+		"/E/Dropbox/MIS DESARROLLOS/Son de Aqui/gulpfile.js",
+		"/E/Dropbox/MIS DESARROLLOS/forum/gulpfile.js",
+		"/C/Users/pcGrande/AppData/Local/Temp/fz3temp-2/style.css",
+		"/C/Users/pcGrande/AppData/Local/Temp/fz3temp-2/styleA.css",
+		"/E/desarrollo/PTF/calendario.html",
+		"/C/Users/pcGrande/Desktop/Q4/index.html",
+		"/C/Users/pcGrande/Desktop/Q4/css/style.css",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/promociones__detalle.html",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/promociones.html",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/eventos__lista.html",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/directorio.html",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/contacto.html",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/novedades__detalle.html",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/novedades.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/copia.html",
+		"/E/Dropbox/MIS DESARROLLOS/forum/tienda2.html",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/tienda.html",
+		"/C/Users/pcGrande/Desktop/sc-4.4.5-win32/config_examples/upstart/sc.conf",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/index.html",
+		"/C/Users/pcGrande/AppData/Roaming/Sublime Text 3/Packages/User/Terminality.sublime-settings",
+		"/E/desarrollo/theme-fundacion/parts/aliados-carrusel.php",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/css/slick-theme.css",
+		"/E/desarrollo/theme-fundacion/js/funciones.js",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/css/style.css",
+		"/I/xampp/htdocs/fundacion/wp-content/themes/theme-fundacion/index.php",
+		"/I/xampp/htdocs/fundacion/wp-content/themes/theme-fundacion/index.html",
+		"/C/Users/pcGrande/Desktop/index.html",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/gulpfile.js",
+		"/E/desarrollo/CRMLEX/gulpfile.js",
+		"/E/Dropbox/MIS DESARROLLOS/Forum/package.json",
+		"/E/desarrollo/nos/gulpfile.js",
+		"/I/tcaster/header.php",
+		"/C/Users/pcGrande/Desktop/arrancaserver",
+		"/C/Users/pcGrande/AppData/Roaming/Sublime Text 3/Packages/WakaTime/WakaTime.sublime-settings",
+		"/C/Users/pcGrande/AppData/Roaming/Sublime Text 3/Packages/User/WakaTime.sublime-settings",
+		"/I/Nos/public/css/style.css",
+		"/I/Nos/resources/views/user_story/form.blade.php",
+		"/I/Nos/resources/views/layouts/engineerCardsDashboard.blade.php",
+		"/I/Nos/resources/views/user_story/index.blade.php",
+		"/I/Nos/resources/views/engineer_card_note/form.blade.php",
+		"/I/Nos/resources/views/engineer_card_note/form.blade_.php",
+		"/I/Nos/resources/views/engineer_card_note/index.blade.php",
+		"/C/Users/pcGrande/Desktop/not.php",
+		"/C/Users/pcGrande/Desktop/form.blade2.php",
+		"/I/Nos/resources/views/engineer_card/form.blade.php",
+		"/I/Nos/resources/views/user_story_note/form.blade.php",
+		"/I/Nos/public/js/engineerCardForm.js",
+		"/I/Nos/resources/views/user_story_engineer_card/form.blade.php",
+		"/I/Nos/resources/views/hour/form.blade.php",
+		"/I/Nos/resources/views/engineer_card/index.blade.php",
+		"/I/Nos/resources/views/hour/index.blade.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/style.css",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/footer.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/index.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/inc/customizer.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/template-parts/specials.php",
+		"/I/tcaster/template-parts/nav-social.php",
+		"/I/tcaster/inc/customizer.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/template-parts/menu.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/header.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/functions.php",
+		"/I/tcaster/index.php",
+		"/I/tcaster/single.php",
+		"/I/tcaster/template-parts/content-page.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/inc/custom_post_type.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/template-parts/slide-menu.php",
+		"/C/Users/pcGrande/Local Sites/wiltonwings/app/public/wp-content/themes/wiltonwings/template-parts/content.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/index.php",
+		"/I/xampp/htdocs/bugacity/wp-content/themes/tema-bugacity/functions.php",
+		"/C/Users/pcGrande/Desktop/mario.php",
+		"/C/Users/pcGrande/Desktop/form.blade.php",
+		"/C/Users/pcGrande/Desktop/Home",
+		"/E/marioform.blade.php",
+		"/I/Nos/app/Http/Models/CompanyModel.php",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/I/nos2/resources/views/user_story/form.blade.php",
+		"/I/Nos/resources/views/user_story_engineer_card/index.blade.php",
+		"/I/Nos/resources/views/layouts/includes/bottomInclude.blade.php"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+			"<project>",
+			"I:\\",
+			"I:\\Nos",
+			"<project>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"eventos__lista",
+			"evento__lista",
+			"detalle__img",
+			"nombre__seccion__movil",
+			"promociones__detall",
+			"promociones",
+			".promo__item",
+			"promo__item",
+			"promo__tienda__item",
+			"directorio",
+			".search",
+			"novedades",
+			" #a03021",
+			"activ",
+			"activr",
+			"logoisla2",
+			"logoisla",
+			"a03021",
+			"slide",
+			".stores__item",
+			"appsnmedio",
+			".menu__principal2",
+			"menu__principal2",
+			"menu__p",
+			"menu__principal",
+			"apps",
+			"nav",
+			"menu",
+			"menu__principal2",
+			"slide__item",
+			"apps2",
+			"apss2",
+			"{\n",
+			"slide__item",
+			"nav",
+			"atardecer__contenido",
+			"store",
+			"slide",
+			"forum",
+			"tiendas",
+			"\t\t\t\t\t\t\n",
+			"<source srcset=\"img/header__movil.jpg\" media=\"(max-width: 480px)\">",
+			"<picture>",
+			"atardecer__contenido",
+			"</picture>",
+			"<source srcset=\"img/header__movil.jpg\" media=\"(max-width: 480px)\">",
+			"<picture>",
+			"stores__item",
+			"\"stores__item",
+			"stores__item",
+			"atardecer",
+			"tiendas",
+			"tienda",
+			"stores__item",
+			"draggable",
+			"slick-list draggable",
+			"<img",
+			"footer",
+			"tienda1",
+			"menu__",
+			"nav",
+			"header",
+			"Header",
+			"9",
+			"nav",
+			"navbar",
+			"Responsive navbar",
+			"// Responsive navbar",
+			"col-md-4",
+			"2",
+			"5",
+			"%;\n",
+			"166, 124, 82, 0.6",
+			"0.4s",
+			"\"\"",
+			"=\"\"></",
+			"calendario",
+			" class=\"\"",
+			"pasados",
+			"hidden-xs nopadding",
+			"col-xs-12",
+			"14",
+			"span",
+			"promo__item--tipo",
+			"promo_item",
+			"A",
+			";\n",
+			"promociones",
+			"contacto",
+			".detalle",
+			"detalle",
+			"btn_",
+			"col-xs-1",
+			"col-xs",
+			"nombre",
+			"|",
+			"1",
+			"col-md-3",
+			"md",
+			"0.5",
+			"col-md-2",
+			"explanada",
+			"forum",
+			"nuestro",
+			"0",
+			"10",
+			"0",
+			"18deg",
+			"18",
+			"36em",
+			"cargar",
+			"dond",
+			"donde",
+			"span",
+			"1",
+			"<div class=\"categoria__item\">\n\t\t\t\t\t\t<img src=\"img/logos/logo1.jpg\" alt=\"\">\n\t\t\t\t\t\t<h4>Accesories</h4>\n\t\t\t\t\t\t<p>Horario 11:00 am - 9:00 pm</p>\n\t\t\t\t\t</div>",
+			";",
+			"pink",
+			"18",
+			"Header-directorio",
+			"1",
+			"-",
+			"60vh",
+			"Header--left",
+			"value",
+			"getUserStoryEngineerCards",
+			"getUserStoryEngineerCards();",
+			"2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"promo"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 48.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "outlet.sublime-project",
+	"replace":
+	{
+		"height": 90.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"tienda.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "nos",
+		"selected_items":
+		[
+			[
+				"nos",
+				"I:\\nos-p.sublime-project"
+			],
+			[
+				"forum",
+				"E:\\Dropbox\\MIS DESARROLLOS\\Forum\\sublime-project.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
