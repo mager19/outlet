@@ -23,12 +23,6 @@ select {
 }
 /*Header*********/
 
-.header__new{
-	background-image: url('../img/fondo__menu.png');
-    height: 48px;
-    background-size: contain auto;
-}
-
 .internas{
 	height: 42px;
 }
@@ -56,11 +50,11 @@ nav{
 	margin-left:0%;
 	background-position: top center;
 	background-size: cover;
-	height: 48px;
+	height: 52px;
 }
 
 .logoforum{
-	margin-left: -2em;
+	margin-left: -3em;
 }
 
 nav h4{
@@ -88,25 +82,28 @@ nav ul{
 }
 
 nav ul li{
+	background-color: #fff;
 	display: inline-block;
 	font-size: 'Myriad Pro';
-	margin-right: 0.6em;
-	height: 42px;
+	margin-right: 0;
+	height: 40px;
 	padding: 11px 0.4em;
 	vertical-align: middle;
 }
 
 nav ul li a{
-	color:#fff;
+	color:#C83B42;
 	font-size: 0.8em;
 }
 
 nav ul li:hover, .activo{
-	background-color: #FF9933;
+	background-color: transparent;
 	color:#fff;
-	-webkit-box-shadow: inset 0px -3px 5px 0px rgba(0,0,0,0.5);
-	-moz-box-shadow: inset 0px -3px 5px 0px rgba(0,0,0,0.5);
-	box-shadow: inset 0px -3px 5px 0px rgba(0,0,0,0.5);
+	
+}
+
+.activo a{
+	color:#fff;
 }
 
 nav ul li:hover a{
@@ -128,7 +125,7 @@ nav ul li:last-child img{
 }
 
 .socialmedia{
-	margin-right: 0.7em;
+	margin-right: 0.3em;
 	padding: 0;
 }
 
@@ -144,6 +141,7 @@ nav ul li:last-child img{
 }
 
 .nohover{
+	background-color: transparent;
 	padding-top: 7px;
 }
 
@@ -154,7 +152,7 @@ nav ul li:last-child img{
 
 .input__corto input{
 	border:0px;
-	background: #717171 url('../img/search.png')5% 50%  no-repeat;
+	background: #D4666C url('../img/search.png')5% 50%  no-repeat;
     color: #fff;
 	padding-left: 20px;
 	width: 100%;
@@ -236,8 +234,8 @@ nav ul li:last-child img{
 }
 
 .news button, .news2 button{
-	background-color: #F9A235;
-    border: 1px solid #FF9933;
+	background-color: #C2242C;
+    border: 1px solid #C2242C;
     color: #fff;
     height: 20px;
     margin-left: 1em;
@@ -336,7 +334,7 @@ body > section.apps2{
 }
 
 .directorio{
-	padding:5em 0 2em 0;
+	padding:2em 0 2em 0;
 }
 
 .directorio--search{
@@ -400,7 +398,7 @@ body > section.apps2{
 .search__contenido input:-moz-placeholder { color: #c7c7c7;font-size: 0.9em; }
 
 .selector__categoria{
-	background-color: #FF9933;
+	background-color:#C2242C;
 	height: 30px;
 	margin-left: -3em;
 	text-align: center;
@@ -408,14 +406,14 @@ body > section.apps2{
 }
 
 .selector__categoria select{
-	background-color: #FF9933;
+	background-color: #C2242C;
 	border:0px;
 	color:#fff;
 	text-align: center;
 }
 
 .directorio .selector__categoria select{
-	background-color: #FF9933;
+	background-color:#C2242C;
 	border:0px;
 	color:#fff;
     padding-left: 25%;
@@ -429,7 +427,7 @@ body > section.apps2{
 }
 
 .categoria__title span{
-	color:#FF9933;
+	color:#C2242C;
 	font-size: 1.1em;
 	font-weight: 600;
 	padding-top: 1px;
@@ -441,7 +439,7 @@ body > section.apps2{
 }
 
 .categoria__item img{
-	border:1px solid #c1c1c1;
+	border:1px solid #00A1E1;
 	padding:15px 22px;
 	width: 150px;
 	height: 80px;
@@ -481,7 +479,7 @@ body > section.apps2{
 }
 
 .cargar__mas a{
-	color:#FF9933;
+	color:#EC0928;
 	display: block;
 	font-size: 0.7em;
 	font-weight: 700;
@@ -505,7 +503,7 @@ body > section.apps2{
 }
 
 .back{
-	color:#FF9933;
+	color:#C2242C;
 	display: block;
 	font-size: 0.8em;
 	margin-bottom: 1em;
@@ -523,7 +521,7 @@ body > section.apps2{
 }
 
 .tienda__title span{
-	color:#FF9933;
+	color:#C2242C;
 	font-size: 1.8em;
 	font-weight: 600;
 	padding-top: 5px;
@@ -692,7 +690,7 @@ body > section.apps2{
 }
 
 .nav.nav-pills{
-	background-color: #FF9933;
+	background-color: #C2242C;
 }
 
 .nav.nav-pills > li{
@@ -720,11 +718,11 @@ body > section.apps2{
 }
 
 .nav.nav-pills > li > a:hover{
-	background-color:rgba(227,121,15,0.7); 
+	background-color:rgba(163,22,30,0.7); 
 }
 
 .nav.nav-pills > li.active a{
-	background-color: #AF7C4A;
+	background-color: #921a20;
 }
 
 .nosotros__tabs .slick-slide img {
@@ -739,9 +737,9 @@ body > section.apps2{
 }
 
 .nosotros__tabs .tab-content{
-	border-left:2px solid #FF9933;
-	border-right:2px solid #FF9933;
-	border-bottom:2px solid #FF9933;
+	border-left:2px solid #c2242c;
+	border-right:2px solid #c2242c;
+	border-bottom:2px solid #c2242c;
 }
 
 .contacto__comercial{
@@ -750,7 +748,7 @@ body > section.apps2{
 }
 
 .contacto__comercial a{
-	background-color:#FF9933;
+	background-color:#c2242c;
 	color:#fff;
 	font-size: 0.8em;
 	padding: 0.5em 1em;
@@ -767,7 +765,7 @@ body > section.apps2{
 } 
 
 .vista__aerea__info{
-	background-color:rgba(255,153,51,0.2);
+	background-color:rgba(194,36,44,0.2);
 	height: 350px; 
   	overflow-y: scroll; 
 	
@@ -856,7 +854,7 @@ body > section.apps2{
 }
 
 .btn__rojo{
-	background-color:#FF9933;
+	background-color:#C2242C;
 	color:#fff!important;
 	font-size: 1em;
 	font-weight: 500;
@@ -890,7 +888,7 @@ body > section.apps2{
 }
 
 .novedades__detalle__title span{
-	color:#FF9933;
+	color:#c2242c;
 	font-size: 1.1em;
 	font-weight: 600;
 	padding-top: 1px;
@@ -1284,7 +1282,7 @@ td.event.important {
 }
 
 .promo__item__title{
-	color:#FF9933;
+	color:#c2242c;
 	font-size: 1em;
 	font-weight: 600;
 	margin-top: 2em;
@@ -1496,7 +1494,7 @@ td.event.important {
 	}
 
 	.logoforum{
-		margin-left: -15em;
+		margin-left: -16em;
 	}
 
 	.nav__contenido{
@@ -1505,6 +1503,29 @@ td.event.important {
 
 	.input__corto {
         width: 28%;
+	}
+
+}
+
+@media screen and (max-width:1920px) {
+
+	.logoforum{
+		margin-left: -3em;
+	}
+}
+
+@media screen and (max-width:1880px) {
+
+	.logoforum{
+		margin-left: -1.5em;
+	}
+
+	.input__corto {
+	    width: 18%;
+	}
+
+	nav ul li:last-child img {
+    	padding: 6px 0px 0px 30px;
 	}
 
 }
@@ -1576,9 +1597,7 @@ td.event.important {
     	text-align: right;
     	margin-right: 2em;
 	}
-	.nav__contenido{
-		margin-left: 9em;
-	}
+
 
    	.menu__principal ul li a {
         font-size: 0.7em!important;
@@ -1734,6 +1753,14 @@ td.event.important {
 
 @media (max-width: 1199px) {
 
+	nav ul li {
+	    padding: 8px 0.2em;
+	}
+	nav ul li {
+	   	height: 38px;
+	    padding: 11px 0.4em;
+	}
+
 	.promociones__detalle .compartir__nuevo {
 	    margin-left: -1em;
 	    text-align: right;
@@ -1748,9 +1775,13 @@ td.event.important {
 	    background-size: cover;
 	    height: 48px;
 	}
+
+	.logoforum {
+    	margin-left: -6.5em;
+	}
 	
 	.nav__contenido {
-    	margin-left: 3em;
+    	margin-left: -4em;
 	}
 
 	nav ul li a {
@@ -1788,7 +1819,12 @@ td.event.important {
 	    width: 100px;
 	}
 
+}
 
+@media (max-width: 1170px) {
+	.logoforum {
+    	margin-left: -5em;
+	}
 
 }
 
@@ -1872,10 +1908,12 @@ td.event.important {
 
 	.navbar-collapse ul li{
 		display: block;
+		background-color: transparent;
 	}
 
 	.navbar-collapse ul li a{
 		font-size: 1.2em;
+		color:#fff;
 	}
 
 	.navbar-collapse.in{
@@ -1892,7 +1930,7 @@ td.event.important {
 	}
 
 	.navbar-collapse ul li:hover a{
-		color:#FF9933;
+		color:#C2242C;
 	} 
 
 	.icons{
@@ -1919,7 +1957,7 @@ td.event.important {
 	}
 
 	.newsletter-movil a{
-		background-color:#FF9933;
+		background-color:#C2242C;
 		color:#fff;
 		display: block;
 		font-size: 1em;
