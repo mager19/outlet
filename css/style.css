@@ -844,7 +844,7 @@ body > section.apps2{
 }
 
 .novedades__info .btn__rojo{
-	background-color:#FF9933;
+	background-color:#c2242c;
 	color:#fff!important;
 	font-size: 1em;
 	font-weight: 500;
@@ -927,7 +927,7 @@ body > section.apps2{
 }
 
 .compartir__detalle h4{
-	color:#FF9933;
+	color:#C2242C;
 	font-size: 0.9em;
 	font-weight: 600;
 }
@@ -1075,7 +1075,7 @@ body > section.apps2{
 }
 
 .formulario form button{
-	background-color: #FF9933;
+	background-color: #C2242C;
 	border: 0px;
 	color:#fff;
 	width: 30%;
@@ -1408,7 +1408,7 @@ td.event.important {
 }
 
 .restricciones h3{
-	color:#FF9933;
+	color:#c2242c;
 	font-size: 1em;
 	font-weight: 600;
 }
