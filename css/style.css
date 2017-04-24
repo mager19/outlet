@@ -793,8 +793,13 @@ body > section.apps2{
 .promo__item{ 
   display: none; 
   margin-top: 1.5em; 
+}
+
+.cupones .promo__item{
+	display: block;
+	margin-top: 1px;
 } 
- 
+
 .categoria{ 
   display: none; 
   margin-top: 1.5em; 
@@ -1322,6 +1327,10 @@ td.event.important {
 	text-align: right;
 }
 
+.cupones .compartir__nuevo {
+    text-align: center;
+}
+
 .compartir__nuevo li{
 	display: inline-block;
 	list-style: none;
@@ -1475,6 +1484,45 @@ td.event.important {
     margin-left: 0px;
 }
 
+
+/********************************
+-----------BANNERS TOP---------
+*********************************/
+
+.banners__top{
+	margin-top: 1em;
+}
+
+.banners__top--left, .banners__top--right{
+	padding: 0px 1px;
+}
+
+.banners__top--left img, .banners__top--right img{
+	width: 100%;
+
+}
+
+.cupones{
+	background-color: #e1e1e1;
+    margin-left: 0.3%;
+    text-align: center;
+	width: 99.6%;
+	margin-top: -10px;
+}
+
+
+
+.cupones h3{
+	color:#C2242C;
+	font-size: 1.5em;
+	font-weight: 600;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.cupones__item img{
+	width: 325px;
+}
 
 /********************************
 -----------MEDIA QUERIES---------
