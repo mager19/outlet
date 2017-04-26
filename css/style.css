@@ -1328,7 +1328,7 @@ td.event.important {
 }
 
 .cupones .compartir__nuevo {
-    text-align: center;
+    text-align: right;
 }
 
 .compartir__nuevo li{
@@ -1498,19 +1498,18 @@ td.event.important {
 }
 
 .banners__top--left img, .banners__top--right img{
-	width: 100%;
-
+	width: 585px;
+	max-width: 100%;
 }
 
 .cupones{
 	background-color: #e1e1e1;
-    margin-left: 0.3%;
-    text-align: center;
-	width: 99.6%;
 	margin-top: -10px;
 }
 
-
+.cupones__container .promo__item{
+	display: block;
+}
 
 .cupones h3{
 	color:#C2242C;
@@ -1523,6 +1522,43 @@ td.event.important {
 .cupones__item img{
 	width: 325px;
 }
+
+.ubicacion{
+	margin-left: 0.4%;
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+	width: 99.45%;
+}
+
+.ubicacion__item__mapa img{
+	width: 875px;
+}
+
+.ubicacion__item__twitter{
+	height: 350px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.cupones__container .promo__item--A{
+	border:1px solid #959595;
+	width: auto;
+	height: 250px;
+}
+
+.cupones__container .promo__item--B{
+	background-size: cover;
+	width: auto;
+	height: 250px;	
+}
+
+.cupones__container .promo__item--C{
+	background-size: cover;
+	width: auto;
+	height: 250px;	
+}
+
 
 /********************************
 -----------MEDIA QUERIES---------
