@@ -1347,6 +1347,12 @@ td.event.important {
 	height: 250px;
 }
 
+.cupones__container .promo__item--A {
+    border: 1px solid #959595;
+    width: 320px;
+    height: 250px;
+}
+
 .promo__item__descripcion{
 	font-size: 1.5em;
 }
@@ -1366,9 +1372,21 @@ td.event.important {
 	width: 320px;
 	height: 250px;	
 }
+.cupones__container .promo__item--B{
+	background-size: cover;
+	width: 320px;
+	height: 250px;	
+}
+
 
 /*Tipo C*/
 .promo__item--C{
+	background-size: cover;
+	width: 320px;
+	height: 250px;	
+}
+
+.cupones__container .promo__item--C{
 	background-size: cover;
 	width: 320px;
 	height: 250px;	
@@ -1539,24 +1557,6 @@ td.event.important {
 	height: 350px;
 	overflow-y: scroll;
 	overflow-x: hidden;
-}
-
-.cupones__container .promo__item--A{
-	border:1px solid #959595;
-	width: auto;
-	height: 250px;
-}
-
-.cupones__container .promo__item--B{
-	background-size: cover;
-	width: auto;
-	height: 250px;	
-}
-
-.cupones__container .promo__item--C{
-	background-size: cover;
-	width: auto;
-	height: 250px;	
 }
 
 
@@ -2354,7 +2354,6 @@ td.event.important {
 		padding: 0.5em 4.5em;
 	}
 
-
 	/*Novedades detalle*/
 
 	.novedades__detalle {
@@ -2652,7 +2651,6 @@ td.event.important {
 		letter-spacing: 1px;
 		text-align: left;
 	}
-
 	
 	/* Resultados*/
 	.resultados__container {
@@ -2726,6 +2724,16 @@ td.event.important {
 
 	.nav.nav-pills > li > a {
 		font-size: 0.8em!important;
+	}
+
+	/*outlet*/
+
+	.banners__top img{
+		width: 100%;
+	}
+
+	.ubicacion__item__mapa img {
+    	width: 100%;
 	}
 
 }
@@ -3026,16 +3034,12 @@ td.event.important {
 		padding:0.2em 2.4em; 
 	}
 
-
-
 	/*Novedades*/
 
 	.novedades {
     	margin-top: 2em;
     	padding-left: 0%;
 	}
-
-
 
 	.novedades__imagen{
 		padding-left: 0.8em;
@@ -3072,7 +3076,6 @@ td.event.important {
 	.detalle img{
 		width: 100%;
 	}
-
 
 	.info__detalle p{
 		padding: 0 0.5em;
@@ -3367,6 +3370,8 @@ td.event.important {
 	body > footer > div > div > div > div > div.col-xs-12.nombres__movil > ul:nth-child(8) > li:nth-child(6):after{
 		
 	}
+
+	
 
 	
 }
