@@ -282,6 +282,10 @@ body > section.apps2{
 	text-align: right;
 }
 
+.footer__item2{ 
+    text-align: center; 
+} 
+
 .footer__item2 img{
 	padding-top: 2em;
 }
@@ -677,8 +681,8 @@ body > section.apps2{
 
 .nosotros__header p{
 	color:#1A1A1A;
-	font-size: 0.8em;
-	line-height: 1.8em;
+	font-size: 1em; 
+  	line-height: 1.5em; 
 	text-align: justify;
 	padding: 0 2em;
 	padding-top: 3em;
@@ -2152,7 +2156,13 @@ td.event.important {
 
 	.up__movil img{
 		margin-left: -1.5em;
+		margin-top: 8px;
 	}
+
+
+	.input__search__movil{ 
+	    padding: 8px 0; 
+	} 
 
 	.input__search__movil input{
 		padding-top: 5px;
@@ -2767,7 +2777,7 @@ td.event.important {
 	}
 	
 	.navbar-header {
-    	margin-left: -2em;
+    	margin-left: -2.5em; 
 	}
 
 	.search__movil{
@@ -3380,7 +3390,9 @@ td.event.important {
 	}
 
 	.twitter-timeline{
-		-webkit-overflow-scrolling: touch;
+		height: 90%;
+		-webkit-overflow-scrolling: touch !important;
+		overflow: scroll !important;
 	}
 
 	
