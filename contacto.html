@@ -169,7 +169,7 @@
 			</div>
 			<!-- /Nombre seccion movil -->
 
-			<div class="col-xs-12 col-md-10 col-md-offset-1">
+			<div class="col-xs-12 col-md-11 col-md-offset-1">
 				<div class="col-md-12">
 					<div class="tienda__title">
 						<img src="img/logos/title_tienda.jpg" alt="">
@@ -177,36 +177,28 @@
 					</div>
 				</div>
 
-				<div class="col-md-6">
-					<p>Forum Cuernavaca es una de las propiedades destinadas a uso comercial y la cual apertura su primer etapa en el segundo semestre de 2016. El complejo cuenta con un ABR total de 54,611 m², de los cuales 30,580 m² se aperturaron al termino del presente trimestre; Forum Cuernavaca esta estratégicamente localizado en la zona comercial y residencial conocida como Jacarandas en la Ciudad de Cuernavaca, Morelos. Se estima que la construcción total concluya en el primer semestre 2017 y que sus principales inquilinos sean marcas renombradas nacionales e internacionales de ropa, calzado, joyería y accesorios, mueblerías, así como cines, gimnasio, restaurantes y otros.</p>
-				</div>
-
-				<div class="col-md-6 contacto__mapa">
-					<img src="img/mapa.jpg" alt="">
-				</div>
-
-				<div class="tienda__title visible-xs">
-					<img src="img/logos/title_tienda.jpg" alt="">
-					<span>CONTACTANOS</span>
-				</div>
-
-				<div class="col-md-10 col-md-offset-1">
+				<div class="col-xs-12 col-md-7">
 					<div class="formulario">
+						<h3>Ponte en contacto con nosotros!</h3>
 						<form action="#">
-							<input type="text" placeholder="Nombre">
-							<input type="email" placeholder="Email">
-							<input type="text" placeholder="Teléfono">
-							<select>
-					        	<option value="volvo">Estado</option>
-								<option value="saab">Saab</option>
-								<option value="mercedes">Mercedes</option>
-								<option value="audi">Audi</option>
-							</select>
+							<input type="text" placeholder="NOMBRE">
+							<input type="text" placeholder="TIPO DE CONSULTA">
+							<input type="email" placeholder="CORREO ELECTRÓNICO">
+							<input type="text" placeholder="PAÍS">
+							<input type="text" placeholder="TELÉFONO">
 							<textarea name="mensaje" id="" cols="30" rows="5" placeholder="Mensaje"></textarea>
+							<div class="g-recaptcha" data-sitekey="6LeMMSAUAAAAAPF8kYwRpskGggLOjoXMudQ0odP8"></div>
 							<button>ENVIAR</button>
 						</form>
 					</div>
 				</div>
+
+				<div class="col-md-5">
+					<div class="contacto__mapa">
+						<h3>Jacarandas 103 col. Flores Magón Cuernavaca, Morelos.</h3>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15922.324849209303!2d-76.30004174999999!3d3.89953575!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1494037038077" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>					
+				</div>		
 
 			</div>			
 		</div>
@@ -376,6 +368,7 @@
   crossorigin="anonymous"></script>
 <script src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/slick.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <script>$(document).ready(function(){
   $('.stores').slick({
 		autoplay: false,
