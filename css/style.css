@@ -82,7 +82,7 @@ nav ul{
 }
 
 nav ul li{
-	background-color: #fff;
+	
 	display: inline-block;
 	font-size: 'Myriad Pro';
 	margin-right: 0;
@@ -92,22 +92,21 @@ nav ul li{
 }
 
 nav ul li a{
-	color:#C83B42;
+	color:#fff;
 	font-size: 0.8em;
 }
 
-nav ul li:hover, .activo{
-	background-color: transparent;
-	color:#fff;
-	
+nav ul li:hover{
+	background-color: #fff;
+		
 }
-
+/*
 .activo a{
-	color:#fff;
+	color:#C83B42;
 }
-
+*/
 nav ul li:hover a{
-	color:#fff;
+	color:#C83B42;
 	text-decoration: none;
 }
 
@@ -769,7 +768,7 @@ body > section.apps2{
 } 
 
 .vista__aerea__info{
-	background-color:rgba(194,36,44,0.2);
+	background-color:#fafafa;
 	height: 350px; 
   	overflow-y: scroll; 
 	
